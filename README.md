@@ -106,3 +106,12 @@ ________________________________________________________________________________
 ![gráfico de_categorias](https://github.com/pedroolins/house-prices/blob/main/img_readme/catplot_banheiros.png)
 
 ### Com a análise mais detalhada no relatório também foi observado que 75% os imóveis que apresentam 2 banheiros possuem preço de compra maior do que 160.000 dólares, já os que apresentam apenas um banheiro possuem preço de compra maior do que 120.500 dólares. Além disso com os coeficentes do modelo de regressão também foi observado que imóveis que apresentam dois banheiros tem em média um aumento de US$ 11.349 dólares  em seu preço de compra.
+
+## Top 3 - > O N° de vagas na garagem do imóvel:
+![gráfico de barras](https://github.com/pedroolins/house-prices/blob/main/img_readme/barplot_garagem.png)
+
+#### Obs: No gráfico abaixo cada ponto representa um imóvel. No eixo y você consegue observar o preço do imóvel e no eixo x qual é quantidade de vagas na garagem do mesmo, este tipo de gráfico é importante pois mostra como está distribuído o preço de compra dos imóveis pelo n° de vagas.
+
+![gráfico de_categorias](https://github.com/pedroolins/house-prices/blob/main/img_readme/catplot_garagem.png)
+
+### Com a análise mais detalhada no relatório também foi observado que imóveis que apresentam maior número de vagas em suas garagens, possuem um preço de compra mais elevado. Contudo, ficou visível que 75% dos imóveis que não possuem garagem, apresentam valor de compra abaixo de US$ 118.250 dólares, já 75% dos imóveis que tem pelo menos 2 vagas em suas garagens, apresentam valor de compra acima de US$ 143.000 dólares. A partir dos coeficientes do modelo de regressão foi observado que em média a cada vaga a mais na garagem de um imóvel seu preço de compra tende a aumentar em US$ 10.426 dólares.
