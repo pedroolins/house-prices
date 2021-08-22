@@ -90,3 +90,19 @@
 **Através do relatório de análise ficou observado que as características dos imóveis, do conjunto de dados que me foi passado, que mais influênciam no seu preço são a zona residêncial, o n° de banheiros, o nível de qualidade do acabamento e o n° de vagas na garagem do imóvel.**
 ___________________________________________________________________________________________________________________________________________________________________________________
 ## Top 1 - > A zona residêncial onde está localizado o imóvel:
+![gráfico de barras](https://github.com/pedroolins/house-prices/blob/main/img_readme/barplot_zona_residencial.png)
+
+#### Obs: No gráfico abaixo cada ponto representa um imóvel. No eixo y você consegue observar o preço do imóvel e no eixo x qual é a zona residêncial do mesmo, este tipo de gráfico é importante pois mostra como está distribuído o preço de compra dos imóveis pela zona residêncial
+![gráfico de_categorias](https://github.com/pedroolins/house-prices/blob/main/img_readme/catplot_zona_residencial.png)
+
+       RL	Zona residencial de baixa densidade
+       RM	Zona residencial de média densidade
+#### Com a análise mais detalhada no relatório também foi observado que 75% dos imóveis que estão presentes em zonas de baixa densidade possuem um preço de compra acima de US$ 132.000 dólares, um valor maior que os imóveis localizados em zonas de média densidade, essa diferença também é perceptível quando olhamos para a média de preços por zona residêncial, onde os imóveis de baixa densidade também apresentam uma média de preço maior. Além disso com os coeficentes do modelo de regressão também foi observado que em média imóveis que estão localizados em zona de média densidade tendem a apresentar uma queda de US$ 11.925 dólares em seu preço de compra.
+
+## Top 2 - > O N° de banheiros do imóvel:
+![gráfico de barras](https://github.com/pedroolins/house-prices/blob/main/img_readme/barplot_banheiros.png)
+
+#### Obs: No gráfico abaixo cada ponto representa um imóvel. No eixo y você consegue observar o preço do imóvel e no eixo x qual é quantidade de banheiros do mesmo, este tipo de gráfico é importante pois mostra como está distribuído o preço de compra dos imóveis pelo n° de banheiros.
+![gráfico de_categorias](https://github.com/pedroolins/house-prices/blob/main/img_readme/catplot_banheiros.png)
+
+### Com a análise mais detalhada no relatório também foi observado que 75% os imóveis que apresentam 2 banheiros possuem preço de compra maior do que 160.000 dólares, já os que apresentam apenas um banheiro possuem preço de compra maior do que 120.500 dólares. Além disso com os coeficentes do modelo de regressão também foi observado que imóveis que apresentam dois banheiros tem em média um aumento de US$ 11.349 dólares  em seu preço de compra.
