@@ -2,6 +2,9 @@
 ![bandeira](https://blog.faspec.edu.br/wp-content/uploads/2019/12/realtor-3261160_640-1.jpg)
 # Observações importantes sobre o projeto:
 * **Com o objetivo de simular um cenário real de um projeto de ciência de dados dentro de uma empresa, o contexto de negócio deste projeto é fictício, ou seja a empresa Beautiful Houses e o CEO da mesma não existem realmente.**
+
+* **Sinta-se à vontade para olhar todo código e análises realizadas por mim neste projeto, o jupyter notebook do relatório de análise está aqui acima no repositório.**
+
 # Problema de negócio do proejto:
 * O problema de negócio deste projeto vem a partir da empresa Beautiful Houses, que tem como modelo de negócio a compra, reforma e venda de imóveis. Portanto a mesma vem sofrendo de um sério problema, que é pagar um valor ideal e justo na compra imóveis a partir de suas determinadas características (área, n° de banheiros e etc..), afinal niguém gosta de saber que investiu um valor alto demais na compra de um imóvel que não vale o valor investido, principalmente uma empresa que tem a compra e venda de imóveis como modelo de negócio. Dessa forma, quanto mais a organização comprar imóveis pelo seu valor ideal de mercado, mais lucro ela irá obter posteriormente na venda deste imóvel.  
 --------------------------------------------------------------------------------------------------------------------------------
@@ -45,7 +48,8 @@
 
 # Definição do Baseline (Como a empresa resolve o problema atualmente):
 
-* **Atualmente a empresa beautiful Houses precifica os imóveis através de uma média dos preços do mercado e muitas vezes através da própria intuição do CEO da empresa e do time de negócio**
+* **Atualmente a empresa beautiful Houses precifica os imóveis através de uma média dos preços do mercado e muitas vezes através da própria intuição do CEO da empresa e do time de negócio.**
+
 * **Nosso papel como Cientista de dados da empresa, é melhorar a forma como ela vem lidando com o problema atualmente, com isso irei criar um modelo de machine learning baseado em regressão linear múltipla para precificar os imóveis através de suas características (Área, n° de banheiros e etc..).**
 
 # Planejamento da solução:
@@ -81,3 +85,8 @@
      * **Quais caractéristicas do imóvel mais interferem no valor de compra do mesmo?**
      * **Imóveis localizados em zona residêncial com baixa densidade apresentam, em sua maioria, valor de compra mais elevados que os de média densidade?**
 10. Conclusôes
+
+# Top 4 insights extraídos do relatório de análise:
+**Através do relatório de análise ficou observado que as características dos imóveis, do conjunto de dados que me foi passado, que mais influênciam no seu preço são a zona residêncial, o n° de banheiros, o nível de qualidade do acabamento e o n° de vagas na garagem do imóvel.**
+___________________________________________________________________________________________________________________________________________________________________________________
+## Top 1 - > A zona residêncial onde está localizado o imóvel:
