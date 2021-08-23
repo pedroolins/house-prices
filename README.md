@@ -123,7 +123,7 @@ ________________________________________________________________________________
 	MAPE - (Erro percentual médio absoluto): É basicamente a porcentagem que o modelo erra em média do valor do imóvel
 	
 	Por exemplo: um modelo que apresenta um MAPE de 30%, erra em média em suas predições 30% do valor dos imóveis, 
-	ou seja o valor real do imóvel pode custar 30% a menos que o valor predito em média.  
+	ou seja o valor real do imóvel pode custar em média 30% a menos que o valor predito.  
 ### Com esses conceitos acima em mente, podemos prosseguir. Como já dito anteriormente a empresa Beautiful Houses atualmente precifica os imóveis que vai comprar a partir de uma média do valores do mercado e também através da intuição do time de negócio e do CEO da empresa, com isso fiz um modelo baseline baseado na média dos preços do conjunto de dados que me foi passado pelo CEO, dessa maneira obtive as seguintes métricas:
 ![modelo_baseline](https://github.com/pedroolins/house-prices/blob/main/img_readme/metricas_baseline.png)
 
