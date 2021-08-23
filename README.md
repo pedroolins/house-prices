@@ -105,7 +105,7 @@ ________________________________________________________________________________
 #### Obs: No gráfico abaixo cada ponto representa um imóvel. No eixo y você consegue observar o preço do imóvel e no eixo x qual é quantidade de banheiros do mesmo, este tipo de gráfico é importante pois mostra como está distribuído o preço de compra dos imóveis pelo n° de banheiros.
 ![gráfico de_categorias](https://github.com/pedroolins/house-prices/blob/main/img_readme/catplot_banheiros.png)
 
-### Com a análise mais detalhada no relatório também foi observado que 75% os imóveis que apresentam 2 banheiros possuem preço de compra maior do que 160.000 dólares, já os que apresentam apenas um banheiro possuem preço de compra maior do que 120.500 dólares. Além disso com os coeficentes do modelo de regressão também foi observado que imóveis que apresentam dois banheiros tem em média um aumento de US$ 11.349 dólares  em seu preço de compra.
+### Com a análise mais detalhada no relatório também foi observado que 75% os imóveis que apresentam 2 banheiros possuem preço de compra maior do que US$ 160.000 dólares, já os que apresentam apenas um banheiro possuem preço de compra maior do que US$ 120.500 dólares. Além disso com os coeficentes do modelo de regressão também foi observado que imóveis que apresentam dois banheiros tem em média um aumento de US$ 11.349 dólares  em seu preço de compra.
 
 ## Top 3 - > O N° de vagas na garagem do imóvel:
 ![gráfico de barras](https://github.com/pedroolins/house-prices/blob/main/img_readme/barplot_garagem.png)
@@ -118,10 +118,18 @@ ________________________________________________________________________________
 
 # Resultados Financeiros do projeto:
 
-## Para falarmos em resultados financeiros para a empresa, primeiro precisaremos entner um pouco sobre as métricas MAE e MAPE:
+## Para falarmos em resultados financeiros para a empresa, primeiro precisaremos entender um pouco sobre as métricas MAE e MAPE:
 	MAE - (Erro médio absoluto): É basicamente quanto o modelo erra em média o valor do preço de compra real do imóvel
 	MAPE - (Erro percentual médio absoluto): É basicamente a porcentagem que o modelo erra em média do valor do imóvel
 	
 	Por exemplo: um modelo que apresenta um MAPE de 30%, erra em média em suas predições 30% do valor dos imóveis, 
 	ou seja o valor real do imóvel pode custar 30% a menos que o valor predito em média.  
-### Com esses conceitos acima em mente, podemos prosseguir. Como já dito anteriormente a empresa Beautiful Houses atualmente precifica os imóveis que vai comprar a partir de um média do valores do mercado e também através da intuição do time de negócio e do CEO da empresa, com isso fiz um modelo baseline baseado na média dos preços do conjunto de dados que me foi passado peo CEO, dessa maneira obtive as seguintes métricas:
+### Com esses conceitos acima em mente, podemos prosseguir. Como já dito anteriormente a empresa Beautiful Houses atualmente precifica os imóveis que vai comprar a partir de uma média do valores do mercado e também através da intuição do time de negócio e do CEO da empresa, com isso fiz um modelo baseline baseado na média dos preços do conjunto de dados que me foi passado pelo CEO, dessa maneira obtive as seguintes métricas:
+![modelo_baseline](https://github.com/pedroolins/house-prices/blob/main/img_readme/metricas_baseline.png)
+
+* Observando o MAPE da tabela de métricas acima, fica visível que a forma como a empresa vem precificando os imóveis, atualmente, erra em média 17,04% do valor real do imóvel. O nosso objetivo com nossa análise e criação do modelo de regressão linear é chegar em um velor bem menor do que este, para otimizar a formar como a empresa precifica os imóveis e assim render mais lucra para a mesma.
+
+### Métricas do modelo de regressão linear realizado  em nossa análise:
+![modelo_baseline](https://github.com/pedroolins/house-prices/blob/main/img_readme/metricas_modelo_regressao.png)
+
+* Observando a tabela do modelo de regressão linear realizado em nossa análise, fica bem claro que o mesmo é mais preciso que a forma como a empresa vem precificando os imóveis atualmente, pois apresenta um MAE e MAPE bem menor, por exempo o modelo erra em média 8,55% do valor real do imóvel, enquanto a forma como a empresa lida com o problema erra em média 17,04% do valor real do imóvel. Isto é uma redução bem significativa, basicamente o nosso modelo apresenta um erro absoluto médio 49,04% menor que a forma como a empresa vem lidando para precificar os imóveis atualmente, isto traz um ganho bem significativo para a Beautiful Houses, tendo em vista que a empresa apresenta como modelo de negócio a compra, reforma e venda de imóveis. Logo quanto menos a empresa errar no valor real do imóvel na sua compra, mais ela irá lucrar na venda do mesmo após reforma. Afinal niguém gosta de saber que investiu mais que o necessário na compra de um imóvel.
