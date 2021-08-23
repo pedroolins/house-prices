@@ -86,8 +86,8 @@
      * **Imóveis localizados em zona residêncial com baixa densidade apresentam, em sua maioria, valor de compra mais elevados que os de média densidade?**
 10. Conclusôes
 
-# Top 4 insights extraídos do relatório de análise:
-**Através do relatório de análise ficou observado que as características dos imóveis, do conjunto de dados que me foi passado, que mais influênciam no seu preço são a zona residêncial, o n° de banheiros, o nível de qualidade do acabamento e o n° de vagas na garagem do imóvel.**
+# Top 3 insights extraídos do relatório de análise:
+**Através do relatório de análise ficou observado que as características dos imóveis, do conjunto de dados que me foi passado, que mais influênciam no seu preço são a zona residêncial, o n° de banheiros e o n° de vagas na garagem do imóvel.**
 ___________________________________________________________________________________________________________________________________________________________________________________
 ## Top 1 - > A zona residêncial onde está localizado o imóvel:
 ![gráfico de barras](https://github.com/pedroolins/house-prices/blob/main/img_readme/barplot_zona_residencial.png)
@@ -115,3 +115,13 @@ ________________________________________________________________________________
 ![gráfico de_categorias](https://github.com/pedroolins/house-prices/blob/main/img_readme/catplot_garagem.png)
 
 ### Com a análise mais detalhada no relatório também foi observado que imóveis que apresentam maior número de vagas em suas garagens, possuem um preço de compra mais elevado. Contudo, ficou visível que 75% dos imóveis que não possuem garagem, apresentam valor de compra abaixo de US$ 118.250 dólares, já 75% dos imóveis que tem pelo menos 2 vagas em suas garagens, apresentam valor de compra acima de US$ 143.000 dólares. A partir dos coeficientes do modelo de regressão foi observado que em média a cada vaga a mais na garagem de um imóvel seu preço de compra tende a aumentar em US$ 10.426 dólares.
+
+# Resultados Financeiros do projeto:
+
+## Para falarmos em resultados financeiros para a empresa, primeiro precisaremos entner um pouco sobre as métricas MAE e MAPE:
+	MAE - (Erro médio absoluto): É basicamente quanto o modelo erra em média o valor do preço de compra real do imóvel
+	MAPE - (Erro percentual médio absoluto): É basicamente a porcentagem que o modelo erra em média do valor do imóvel
+	
+	Por exemplo: um modelo que apresenta um MAPE de 30%, erra em média em suas predições 30% do valor dos imóveis, 
+	ou seja o valor real do imóvel pode custar 30% a menos que o valor predito em média.  
+### Com esses conceitos acima em mente, podemos prosseguir. Como já dito anteriormente a empresa Beautiful Houses atualmente precifica os imóveis que vai comprar a partir de um média do valores do mercado e também através da intuição do time de negócio e do CEO da empresa, com isso fiz um modelo baseline baseado na média dos preços do conjunto de dados que me foi passado peo CEO, dessa maneira obtive as seguintes métricas:
