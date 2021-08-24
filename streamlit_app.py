@@ -4,6 +4,7 @@ import streamlit as st
 import pickle
 import numpy as np
 import os
+import sklearn
 
 # Cabeçalho do Web app
 st.header('Web App: Predição do preço de imóveis da Beautiful Houses')
