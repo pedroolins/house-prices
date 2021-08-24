@@ -1,5 +1,7 @@
 # Projeto de análise de imóveis e predição do preço de compra (Problema de regressão)
 ![bandeira](https://blog.faspec.edu.br/wp-content/uploads/2019/12/realtor-3261160_640-1.jpg)
+# Deploy do modelo
+* Link para o Web App no Streamlit: https://share.streamlit.io/pedroolins/house-prices/main
 # Observações importantes sobre o projeto:
 * **Com o objetivo de simular um cenário real de um projeto de ciência de dados dentro de uma empresa, o contexto de negócio deste projeto é fictício, ou seja a empresa Beautiful Houses e o CEO da mesma não existem realmente.**
 
