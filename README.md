@@ -65,7 +65,7 @@
      * Imóveis com menor área tendem a ter um valor de compra menor?  
      * Imóveis com lareiras tendem a apresentar umn preço de compra mais elevado?
      * Imóveis com maior quantidade de vagas na garagem tendem a apresentar valores de compra mais elevado?
-     * Imóveis localizados em áreas de média densidade tendem a apresentar valores de compra mais elevado?
+     * Imóveis localizados em zona residencial de média densidade tendem a apresentar valores de compra mais elevado?
      * Imóveis com maior quantidade de cômodos tendem a ter um valor de compra mais elevado?
      * Imóveis com maior nível de qualidade de acabamento possuem preço de compra mais elevado?
  * **Extrair insights;**
@@ -83,13 +83,13 @@
          * N° de vagas na garagem = 1
          * Imóvel em Zona residência de baixa densidade
      * **Quais caractéristicas do imóvel mais interferem no valor de compra do mesmo?**
-     * **Imóveis localizados em zona residêncial com baixa densidade apresentam, em sua maioria, valor de compra mais elevados que os de média densidade?**
+     * **Imóveis localizados em zona residencial com baixa densidade apresentam, em sua maioria, valor de compra mais elevados que os de média densidade?**
 10. Conclusôes
 
 # Top 3 insights extraídos do relatório de análise:
 **Através do relatório de análise ficou observado que as características dos imóveis, do conjunto de dados que me foi passado, que mais influênciam no seu preço são a zona residêncial, o n° de banheiros e o n° de vagas na garagem do imóvel.**
 ___________________________________________________________________________________________________________________________________________________________________________________
-## Top 1 - > A zona residêncial onde está localizado o imóvel:
+## Top 1 - > A zona residencial onde está localizado o imóvel:
 ![gráfico de barras](https://github.com/pedroolins/house-prices/blob/main/img_readme/barplot_zona_residencial.png)
 
 #### Obs: No gráfico abaixo cada ponto representa um imóvel. No eixo y você consegue observar o preço do imóvel e no eixo x qual é a zona residêncial do mesmo, este tipo de gráfico é importante pois mostra como está distribuído o preço de compra dos imóveis pela zona residêncial
@@ -97,7 +97,7 @@ ________________________________________________________________________________
 
        RL	Zona residencial de baixa densidade
        RM	Zona residencial de média densidade
-#### Com a análise mais detalhada no relatório também foi observado que 75% dos imóveis que estão presentes em zonas de baixa densidade possuem um preço de compra acima de US$ 132.000 dólares, um valor maior que os imóveis localizados em zonas de média densidade, essa diferença também é perceptível quando olhamos para a média de preços por zona residêncial, onde os imóveis de baixa densidade também apresentam uma média de preço maior. Além disso com os coeficentes do modelo de regressão também foi observado que em média imóveis que estão localizados em zona de média densidade tendem a apresentar uma queda de US$ 11.925 dólares em seu preço de compra.
+#### Com a análise mais detalhada no relatório também foi observado que 75% dos imóveis que estão presentes em zonas de baixa densidade possuem um preço de compra acima de US$ 132.000 dólares, um valor maior que os imóveis localizados em zonas de média densidade, essa diferença também é perceptível quando olhamos para a média de preços por zona residencial, onde os imóveis de baixa densidade também apresentam uma média de preço maior. Além disso com os coeficentes do modelo de regressão também foi observado que em média imóveis que estão localizados em zona de média densidade tendem a apresentar uma queda de US$ 11.925 dólares em seu preço de compra.
 
 ## Top 2 - > O N° de banheiros do imóvel:
 ![gráfico de barras](https://github.com/pedroolins/house-prices/blob/main/img_readme/barplot_banheiros.png)
