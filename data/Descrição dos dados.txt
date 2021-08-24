@@ -1,0 +1,31 @@
+Zona: Classificação da zona de venda
+		
+       RL	Zona residencial de baixa densidade
+       RM	Zona residencial de média densidade
+
+Area: Tamanho do terreno (pés quadrados)
+
+Qualidade: Qualidade do material e acabamento do imóvel
+
+AnoConstrucao: Data de construção
+
+QualidadeAquecimento: Qualidade do sistema de aquecimento
+
+       Ex	Excelente
+       Gd	Bom
+       TA	Mediano
+       Fa	Aceitável
+
+Banheiros: Banheiros
+
+Quartos_t1: Quartos tipo 1
+
+Quartos_t2: Quartos tipo 2
+      	
+Comodos: Total de cômodos
+		
+Lareiras: Quantidade de lareiras
+		
+Garagem: Tamanho da garagem em termos de quantidade de carros
+
+Preco: Preço de venda do imóvel
