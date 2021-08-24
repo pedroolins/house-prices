@@ -12,7 +12,7 @@
 
   1. *Qual seria o preço de compra ideal de um imóvel a partir de determinadas características?*
   3. *Quais características do imóvel mais interferem no valor de compra do mesmo?*
-  4. *Imóveis localizados em zona residêncial com baixa densidade apresentam, em sua maioria, valor de compra mais elevados que os imóveis localizados em zonas de média densidade?*
+  4. *Imóveis localizados em zona residencial com baixa densidade apresentam, em sua maioria, valor de compra mais elevados que os imóveis localizados em zonas de média densidade?*
 # Descrição das variáveis do conjunto de dados:
 * Zona: Classificação da zona de venda
 		
@@ -87,12 +87,12 @@
 10. Conclusôes
 
 # Top 3 insights extraídos do relatório de análise:
-**Através do relatório de análise ficou observado que as características dos imóveis, do conjunto de dados que me foi passado, que mais influênciam no seu preço são a zona residêncial, o n° de banheiros e o n° de vagas na garagem do imóvel.**
+**Através do relatório de análise ficou observado que as características dos imóveis, do conjunto de dados que me foi passado, que mais influênciam no seu preço são a zona residencial, o n° de banheiros e o n° de vagas na garagem do imóvel.**
 ___________________________________________________________________________________________________________________________________________________________________________________
 ## Top 1 - > A zona residencial onde está localizado o imóvel:
 ![gráfico de barras](https://github.com/pedroolins/house-prices/blob/main/img_readme/barplot_zona_residencial.png)
 
-#### Obs: No gráfico abaixo cada ponto representa um imóvel. No eixo y você consegue observar o preço do imóvel e no eixo x qual é a zona residêncial do mesmo, este tipo de gráfico é importante pois mostra como está distribuído o preço de compra dos imóveis pela zona residêncial
+#### Obs: No gráfico abaixo cada ponto representa um imóvel. No eixo y você consegue observar o preço do imóvel e no eixo x qual é a zona residencial do mesmo, este tipo de gráfico é importante pois mostra como está distribuído o preço de compra dos imóveis pela zona residencial
 ![gráfico de_categorias](https://github.com/pedroolins/house-prices/blob/main/img_readme/catplot_zona_residencial.png)
 
        RL	Zona residencial de baixa densidade
@@ -144,17 +144,17 @@ ________________________________________________________________________________
          N° de cômodos = 6
          N° de lareiras = 3
          N° de vagas na garagem = 1
-         Imóvel em Zona residência de baixa densidade
+         Imóvel em Zona residencial de baixa densidade
 * Resposta: Utilizando o modelo de regressão linear presente em nossa análise, para fazer uma previsão pontual de um imóvel com estas características foi observado que o valor do mesmo seria de aproximadamente US$ 158.679,74 dólares.
 
 ## 2. Quais características do imóvel mais interferem no valor de compra do mesmo?
-	* Zona residêncial do imóvel
+	* Zona residencial do imóvel
 	* Nível de qualidade do acabamento do imóvel
 	* Número de vagas da garagem
 	* Número de banheiros do imóvel
 	
-## 3. Imóveis localizados em zona residêncial com baixa densidade apresentam, em sua maioria, valor de compra mais elevados que os de alta densidade?
-* A resposta é sim, como visto anteriormente, imóveis localizados em zona residêncial de baixa densidade tendem a apresentar um preço de compra mais elevado. Além disso se observamos o coeficiente desta feature no modelo, iremos perceber que em média imóveis localizados em zona residêncial de média densidade apresentam uma queda de US$ 11.925,38 dólares no seu preço de compra.
+## 3. Imóveis localizados em zona residencial com baixa densidade apresentam, em sua maioria, valor de compra mais elevados que os de alta densidade?
+* A resposta é sim, como visto anteriormente, imóveis localizados em zona residencial de baixa densidade tendem a apresentar um preço de compra mais elevado. Além disso se observamos o coeficiente desta feature no modelo, iremos perceber que em média imóveis localizados em zona residencial de média densidade apresentam uma queda de US$ 11.925,38 dólares no seu preço de compra.
 
 # Próximos Passos
 #### Contudo, ainda podemos aprimorar mais a nossa análise e o modelo preditivo. Acredito que com novas variáveis no conjunto de dados, como a data da compra do imóvel, possam extrair mais insights para a empresa (como por exemplo perceber se existe uma sazonalidade no valor do preço de compra de um imóvel a partir da época do ano em que foi realizada a compra). Além disso com novas features talvez seja possível que possamos descrever melhor a variabilidade da nossa variável dependente (Preço).
